@@ -1,6 +1,6 @@
-/* body {
-
-} */
+body {
+    color: black;
+}
 
 .tortaTumbera {
     position: relative;
@@ -9,9 +9,8 @@
     height: 400px;
     width: 650px;
     border-radius: 10%;
-    transition: transform 0.5s;
     /* Mueve la transición aquí para que se aplique siempre */
-    animation: slideInOut 4s ease-in-out infinite;
+    animation: slideInOut 8s ease-in-out infinite;
 }
 
 @keyframes slideInOut {
@@ -79,4 +78,14 @@
     /* Lo centra correctamente */
     height: 400px;
     width: 700px;
+}
+
+.segundoFondo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid black;
+    width: 100%;
+    height: 1200px;
+    position: absolute;
+    top: 1000px;
 }
