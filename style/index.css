@@ -1,91 +1,10 @@
 body {
-    color: black;
-}
-
-.tortaTumbera {
-    position: relative;
-    left: 65%;
-    top: 200px;
-    height: 400px;
-    width: 650px;
-    border-radius: 10%;
-    /* Mueve la transición aquí para que se aplique siempre */
-    animation: slideInOut 8s ease-in-out infinite;
-}
-
-@keyframes slideInOut {
-    0% {
-        transform: translateX(-120%);
-    }
-
-    50% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-120%);
-    }
-}
-
-
-
-.index {
-    /* background-color: grey; */
-    width: 100%;
-    height: 900px;
-    background-image: url(/assets/img/4.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    border-bottom: 3px solid black;
-}
-
-
-.titleandtext {
-    position: absolute;
-    left: 200px;
-    top: 20%;
-    height: 350px;
-    width: 450px;
-    border-radius: 10%;
-}
-
-.textIndex:hover {
-    color: black;
-    opacity: 1;
-
-}
-
-.titleandtext {
-    height: 600px;
-    width: 900px;
-    border: 1px solid black;
-    background-color: white;
-}
-
-.titleandtext img {
-    height: 600px;
-    width: 900px;
-    border-radius: 10%;
-    opacity: 1;
-}
-
-.textIndex {
-    position: absolute;
-    top: 43%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* Lo centra correctamente */
-    height: 400px;
-    width: 700px;
-}
-
-.segundoFondo {
+    background-image: url(/assets/img/fondov2.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 3px solid black;
-    width: 100%;
-    height: 1200px;
-    position: absolute;
-    top: 1000px;
+    color: black;
+    margin: 0;
+    padding: 0;
 }
+
