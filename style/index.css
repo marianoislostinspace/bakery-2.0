@@ -1,0 +1,37 @@
+body {
+    background-image: url(/assets/img/fondov2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.anchors{
+    position: relative;
+}
+.fondo1 {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: gray;
+    left: 1600px;
+    top: 350px;
+}
+.fondo2 {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: gray;
+    left: 1280px;
+    top: 350px;
+}
+.fondo3 {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: gray;
+    left: 960px;
+    top: 350px;
+}
