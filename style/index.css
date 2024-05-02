@@ -28,7 +28,7 @@ body {
     border: 4px solid white;
     background-color: gray;
     left: 1580px;
-    top:200px;
+    top: 200px;
 }
 
 .fondo1 img {
@@ -162,7 +162,7 @@ body {
     transition: 1s;
 }
 
-.textoLateral{
+.textoLateral {
     position: absolute;
     width: 600px;
     height: 600px;
@@ -172,39 +172,41 @@ body {
     left: 40px;
 }
 
-.tituloLateral{
+.tituloLateral {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
     text-align: center;
-    font-size: 30px;   
+    font-size: 30px;
     color: white;
 }
 
-.contenidoLateral{
+.contenidoLateral {
     position: absolute;
     top: 15%;
     color: white;
 }
 
-.botonLateral{
-  position: absolute;
-  width: 200px;
-  height: 40px;
-  border: 2px solid white;
-  background-color: gray;
-  top: 105%;
-  left: 20%;
-  border-radius: 10px;
-  cursor: pointer;
+.botonLateral {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: gray;
+    top: 105%;
+    left: 20%;
+    border-radius: 10px;
+    cursor: pointer;
 }
-.botonLateral:hover{
+
+.botonLateral:hover {
     background-color: white;
     transform: scale(1.2);
     transition: 1s;
 }
 
-.botonLateral p{
+.botonLateral p {
     position: relative;
     text-align: center;
     top: 8px;
 }
+
