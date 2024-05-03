@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-image: url(/assets/img/fondov2.jpg);
     background-position: center;
@@ -105,6 +108,7 @@ body {
     cursor: pointer;
 }
 
+
 .boton1 p {
     text-align: center;
     margin-top: 8px;
@@ -210,3 +214,74 @@ body {
     top: 8px;
 }
 
+
+
+/* ESTILOS DEL GRID DE PRODUCTOS */
+
+.separacion1{
+    width: 100%;
+    height: 200px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.columna {
+    position: relative;
+    right: 100px;
+    top: 600px;
+    border: 2px solid white;
+    /* background-color: rgb(203, 202, 142); */
+    width: 850px;
+    height: 150px;
+    margin: 20px;
+}
+.textoGrid{
+    position: absolute;
+    line-height: 20px;
+    color: white;
+    top: 40px;
+    left: 220px;
+}
+
+.columna img {
+    height: 148px;
+    width: 200px;
+    border: 2px solid white;
+}
+
+h1 {
+    position: absolute;
+    top: 100px;
+    left: 38%;
+    color: white;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.pan {
+    position: absolute;
+    top: 1050px;
+    left: 130px;
+    color: white;
+    font-size: 50px;
+}
+.torta{
+    position: absolute;
+    top: 2030px;
+    left: 130px;
+    color: white;
+    font-size: 50px;
+}
+.fiambre{
+    position: absolute;
+    top: 3000px;
+    left: 130px;
+    color: white;
+    font-size: 50px;
+}
