@@ -6,165 +6,134 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
+    margin: 0;
+    padding: 0;
+} 
 
-/* .mainTitle {
-    position: absolute;
-    color: white;
+h1{
+    margin: 10px;
     font-size: 40px;
-    top: 120px;
-    left: 300px;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-} */
-
-.anchors {
-    position: relative;
-    margin-right: 1000px;
+}
+.intro{
+    height: 70px;
+    width: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0; 
+    background-color: rgb(27, 27,27 , .5);
+    color:  white;
+    transition: .5s;
+}
+.introP{
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: bold;
 }
 
-.fondo1 {
-    position: relative;
+.card1 {
+    position: absolute;
     width: 350px;
     height: 500px;
-    border: 4px solid white;
-    background-color: gray;
-    left: 1580px;
+    left: 1550px;
     top: 200px;
 }
 
-.fondo1 img {
+.card1 img {
     width: 350px;
     height: 500px;
     opacity: 0.7;
+    transition: .5s;
 }
 
-.fondo2 {
+.card1:hover{
+    cursor: pointer;
+}
+
+.card1:hover .intro{
+    height: 220px;
+    bottom: 0px;
+    background-color: black;
+}
+.card1:hover .introP{
+    opacity: 1;
+    visibility: visible;
+}
+.card1:hover .cardImg1{
+    transform: scale(1.1) rotate(-3deg);
+}
+
+.card2 {
     position: absolute;
     width: 350px;
     height: 500px;
-    border: 4px solid white;
     background-color: gray;
-    left: 1200px;
+    left: 1170px;
     top: 200px;
 }
 
-.fondo2 img {
+.card2 img {
     width: 350px;
     height: 500px;
     opacity: 0.9;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    transition: .5s;
+}
+.card2:hover{
+    cursor: pointer;
 }
 
-.fondo3 {
+.card2:hover .intro{
+    height: 220px;
+    bottom: 0px;
+    background-color: black;
+}
+.card2:hover .introP{
+    opacity: 1;
+    visibility: visible;
+}
+.card2:hover .cardImg2{
+    transform: scale(1.1) rotate(-3deg);
+}
+
+
+.card3 {
     position: absolute;
     width: 350px;
     height: 500px;
-    border: 4px solid white;
     background-color: gray;
-    left: 820px;
+    left: 790px;
     top: 200px;
 }
 
-.fondo3 img {
+.card3 img {
     width: 350px;
     height: 500px;
     opacity: 0.9;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    transition: .5s;
 }
-
-.texto1 {
-    position: absolute;
-    color: white;
-    top: 60%;
-    text-align: center;
-    font-size: larger;
-}
-
-.texto2 {
-    position: absolute;
-    color: white;
-    top: 60%;
-    text-align: center;
-    font-size: larger;
-}
-
-.texto3 {
-    position: absolute;
-    color: rgb(255, 255, 255);
-    top: 60%;
-    text-align: center;
-    font-size: larger;
-}
-
-.boton1 {
-    position: absolute;
-    width: 150px;
-    height: 40px;
-    border: 1px solid white;
-    background-color: gray;
-    top: 87%;
-    left: 28%;
-    border-radius: 10px;
+.card3:hover{
     cursor: pointer;
 }
 
-
-.boton1 p {
-    text-align: center;
-    margin-top: 8px;
+.card3:hover .intro{
+    height: 220px;
+    bottom: 0px;
+    background-color: black;
+}
+.card3:hover .introP{
+    opacity: 1;
+    visibility: visible;
+}
+.card3:hover .cardImg3{
+    transform: scale(1.1) rotate(-3deg);
 }
 
-.boton1:hover {
-    background-color: white;
-    transform: scale(1.2);
-    transition: 1s;
-}
-
-.boton2 {
-    position: absolute;
-    width: 150px;
-    height: 40px;
-    border: 1px solid white;
-    background-color: gray;
-    top: 87%;
-    left: 28%;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.boton2 p {
-    text-align: center;
-    margin-top: 8px;
-}
-
-.boton2:hover {
-    background-color: white;
-    transform: scale(1.2);
-    transition: 1s;
-}
-
-.boton3 {
-    position: absolute;
-    width: 150px;
-    height: 40px;
-    border: 1px solid white;
-    background-color: grey;
-    top: 87%;
-    left: 28%;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.boton3 p {
-    text-align: center;
-    margin-top: 8px;
-}
-
-.boton3:hover {
-    background-color: white;
-    transform: scale(1.2);
-    transition: 1s;
-}
 
 .textoLateral {
     position: absolute;
@@ -184,6 +153,7 @@ body {
     color: white;
 }
 
+
 .contenidoLateral {
     position: absolute;
     top: 15%;
@@ -196,7 +166,7 @@ body {
     height: 40px;
     border: 2px solid white;
     background-color: gray;
-    top: 105%;
+    top: 110%;
     left: 20%;
     border-radius: 10px;
     cursor: pointer;
@@ -212,6 +182,7 @@ body {
     position: relative;
     text-align: center;
     top: 8px;
+    margin: 0;
 }
 
 
@@ -234,7 +205,7 @@ body {
 .columna {
     position: relative;
     right: 100px;
-    top: 600px;
+    top: 1100px;
     border: 2px solid white;
     /* background-color: rgb(203, 202, 142); */
     width: 850px;
@@ -255,14 +226,7 @@ body {
     border: 2px solid white;
 }
 
-h1 {
-    position: absolute;
-    top: 100px;
-    left: 38%;
-    color: white;
-    font-size: 60px;
-    text-decoration: underline;
-}
+
 
 .pan {
     position: absolute;
