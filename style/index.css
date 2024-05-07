@@ -1,6 +1,7 @@
-html{
+html {
     scroll-behavior: smooth;
 }
+
 body {
     background-image: url(/assets/img/fondov2.jpg);
     background-position: center;
@@ -8,24 +9,26 @@ body {
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-} 
+}
 
-h1{
+h1 {
     margin: 10px;
     font-size: 40px;
 }
-.intro{
+
+.intro {
     height: 70px;
     width: 350px;
     padding: 20px;
     box-sizing: border-box;
     position: absolute;
-    bottom: 0; 
-    background-color: rgb(27, 27,27 , .5);
-    color:  white;
+    bottom: 0;
+    background-color: rgb(27, 27, 27, .5);
+    color: white;
     transition: .5s;
 }
-.introP{
+
+.introP {
     font-size: 20px;
     margin: 20px;
     visibility: hidden;
@@ -46,22 +49,26 @@ h1{
     height: 500px;
     opacity: 0.7;
     transition: .5s;
+    border: 2px solid white
 }
 
-.card1:hover{
+.card1:hover {
     cursor: pointer;
 }
 
-.card1:hover .intro{
+.card1:hover .intro {
     height: 220px;
     bottom: 0px;
     background-color: black;
+
 }
-.card1:hover .introP{
+
+.card1:hover .introP {
     opacity: 1;
     visibility: visible;
 }
-.card1:hover .cardImg1{
+
+.card1:hover .cardImg1 {
     transform: scale(1.1) rotate(-3deg);
 }
 
@@ -81,21 +88,25 @@ h1{
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
     transition: .5s;
+    border: 2px solid white
 }
-.card2:hover{
+
+.card2:hover {
     cursor: pointer;
 }
 
-.card2:hover .intro{
+.card2:hover .intro {
     height: 220px;
     bottom: 0px;
     background-color: black;
 }
-.card2:hover .introP{
+
+.card2:hover .introP {
     opacity: 1;
     visibility: visible;
 }
-.card2:hover .cardImg2{
+
+.card2:hover .cardImg2 {
     transform: scale(1.1) rotate(-3deg);
 }
 
@@ -116,21 +127,25 @@ h1{
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
     transition: .5s;
+    border: 2px solid white
 }
-.card3:hover{
+
+.card3:hover {
     cursor: pointer;
 }
 
-.card3:hover .intro{
+.card3:hover .intro {
     height: 220px;
     bottom: 0px;
     background-color: black;
 }
-.card3:hover .introP{
+
+.card3:hover .introP {
     opacity: 1;
     visibility: visible;
 }
-.card3:hover .cardImg3{
+
+.card3:hover .cardImg3 {
     transform: scale(1.1) rotate(-3deg);
 }
 
@@ -141,7 +156,7 @@ h1{
     height: 600px;
     /* border: 2px solid white;
     background-color: grey; */
-    top: 20%;
+    top: 10%;
     left: 40px;
 }
 
@@ -166,7 +181,7 @@ h1{
     height: 40px;
     border: 2px solid white;
     background-color: gray;
-    top: 110%;
+    top: 105%;
     left: 20%;
     border-radius: 10px;
     cursor: pointer;
@@ -189,7 +204,7 @@ h1{
 
 /* ESTILOS DEL GRID DE PRODUCTOS */
 
-.separacion1{
+.separacion1 {
     width: 100%;
     height: 200px;
 }
@@ -205,14 +220,15 @@ h1{
 .columna {
     position: relative;
     right: 100px;
-    top: 1100px;
+    top: 1400px;
     border: 2px solid white;
     /* background-color: rgb(203, 202, 142); */
     width: 850px;
     height: 150px;
     margin: 20px;
 }
-.textoGrid{
+
+.textoGrid {
     position: absolute;
     line-height: 20px;
     color: white;
@@ -230,22 +246,120 @@ h1{
 
 .pan {
     position: absolute;
-    top: 1050px;
+    top: 1350px;
     left: 130px;
     color: white;
     font-size: 50px;
 }
-.torta{
+
+.torta {
     position: absolute;
-    top: 2030px;
+    top: 2330px;
     left: 130px;
     color: white;
     font-size: 50px;
 }
-.fiambre{
+
+.fiambre {
     position: absolute;
-    top: 3000px;
+    top: 3300px;
     left: 130px;
     color: white;
     font-size: 50px;
+}
+
+/* seccion entre menu y home */
+
+.fondoRectangulo {
+    position: absolute;
+    height: 480px;
+    width: 100%;
+    background-color: #fff9e1;
+    top: 80%;
+    opacity: 0.9;
+    border: 2px solid white;
+}
+
+.slot1 {
+    position: absolute;
+    height: 300px;
+    width: 200px;
+}
+
+.slot1 img {
+    position: absolute;
+    height: 200px;
+    left: 300px;
+    
+
+}
+
+.slot1 p {
+    position: relative;
+    height: 200px;
+    left: 315px;
+    justify-content: center;
+    top: 170px;
+
+}
+
+
+
+.slot2 {
+    position: absolute;
+    height: 300px;
+    width: 200px;
+}
+
+.slot2 img {
+    position: absolute;
+    height: 200px;
+    left: 850px;
+}
+
+.slot2 p {
+    position: relative;
+    height: 200px;
+    left: 300px;
+    justify-content: center;
+    top: 170px;
+    left: 870px;
+}
+
+
+
+.slot3 {
+    position: absolute;
+    height: 300px;
+    width: 200px;
+}
+
+.slot3 img {
+    position: absolute;
+    height: 200px;
+    left: 1400px;
+
+}
+
+.slot3 p {
+    position: relative;
+    height: 200px;
+    left: 300px;
+    justify-content: center;
+    top: 170px;
+    left: 1420px;
+}
+
+.welcome{
+    width: 100%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 320px;
+    top: 380px;
+    font-size: 100px;
+
+}
+
+#seccionpan{
+    display: none;
 }
