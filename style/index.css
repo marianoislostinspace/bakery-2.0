@@ -9,13 +9,21 @@ body {
     background-attachment: fixed;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 h1 {
     margin: 10px;
     font-size: 40px;
 }
-
+.piojo{
+    position: absolute;
+    font-size: 60px;
+    left: 800px;
+    top: 220px;
+    color: white;
+    text-decoration: underline;
+}
 .intro {
     height: 70px;
     width: 350px;
@@ -41,7 +49,7 @@ h1 {
     width: 350px;
     height: 500px;
     left: 1550px;
-    top: 200px;
+    top: 320px;
 }
 
 .card1 img {
@@ -78,7 +86,7 @@ h1 {
     height: 500px;
     background-color: gray;
     left: 1170px;
-    top: 200px;
+    top: 320px;
 }
 
 .card2 img {
@@ -117,7 +125,7 @@ h1 {
     height: 500px;
     background-color: gray;
     left: 790px;
-    top: 200px;
+    top: 320px;
 }
 
 .card3 img {
@@ -156,7 +164,7 @@ h1 {
     height: 600px;
     /* border: 2px solid white;
     background-color: grey; */
-    top: 10%;
+    top: 20%;
     left: 40px;
 }
 
@@ -220,7 +228,7 @@ h1 {
 .columna {
     position: relative;
     right: 100px;
-    top: 1400px;
+    top: 1800px;
     border: 2px solid white;
     /* background-color: rgb(203, 202, 142); */
     width: 850px;
@@ -246,7 +254,7 @@ h1 {
 
 .pan {
     position: absolute;
-    top: 1350px;
+    top: 1750px;
     left: 130px;
     color: white;
     font-size: 50px;
@@ -254,7 +262,7 @@ h1 {
 
 .torta {
     position: absolute;
-    top: 2330px;
+    top: 2730px;
     left: 130px;
     color: white;
     font-size: 50px;
@@ -262,7 +270,7 @@ h1 {
 
 .fiambre {
     position: absolute;
-    top: 3300px;
+    top: 3700px;
     left: 130px;
     color: white;
     font-size: 50px;
@@ -273,10 +281,10 @@ h1 {
 .fondoRectangulo {
     position: absolute;
     height: 480px;
-    width: 100%;
+    width: 2000px;
     background-color: #fff9e1;
-    top: 80%;
-    opacity: 0.9;
+    top: 1100px;
+    opacity: 0.7;
     border: 2px solid white;
 }
 
